@@ -1,6 +1,5 @@
 const mongoose = require('mongoose')
 const env = require('./env')
-// const { mongodb } = require('../configurations/config')
 
 // eslint-disable-next-line func-names
 module.exports = async function (dbName) {

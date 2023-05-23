@@ -34,10 +34,4 @@ const PeripheralSchema = new mongoose.Schema({
   },
 })
 
-// gateway: {
-//   type: mongoose.Types.ObjectId,
-//   ref: 'Gateway',
-//   required: true, // TODO review
-// },
-
 exports.PeripheralModel = mongoose.model('Peripheral', PeripheralSchema)

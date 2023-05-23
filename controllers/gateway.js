@@ -42,7 +42,6 @@ exports.create = async (req, res) => {
 
 exports.findAll = async (req, res) => {
   try {
-    // console.log(GatewayModel)
     const gateways = await GatewayModel.find().populate('peripherals')
     res.status(200).json(gateways)
   } catch (err) {
